@@ -78,7 +78,6 @@ const Login: React.FC = () => {
           <button
             type="submit" // Set type to submit for the button
             className="bg-blue-400 hover:bg-blue-600 text-white py-4 px-4 rounded-full w-full"
-            onClick={(e)=>onLogin(e)}
           >
             Submit
           </button>
